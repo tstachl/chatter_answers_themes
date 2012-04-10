@@ -9,43 +9,13 @@ body, td, select, input, textarea, fieldset legend {
 h1, h2, h3, h4, h5, h6 {
     color: #333;
 }
-
-/* Three Column Layout */
 .threecolumn {
     background: #F4EAD5;
 }
-/* END Three Column Layout */
-
-/* START Icon Sprite */
-.leftContent .feedcriterialinks li img,
-.feedItemBestReplyIcon,
-.csCustomerSupportSubIcon,
-.cxfeedcomment .cxlike a,
-.cxfeedcomment .cxdislike a,
-.cxfeedcomment .cxafterlike,
-.cxfeedcomment .cxafterdislike {
-    width:30px;
-    height:30px;
-    background: url("/img/chatterservice/icon_sprite_serviceSupport.png") 0 0 no-repeat;
-}
-/* END Icon Sprite */
-
-/* --------------------------------------------------------------------------------- */
-/* Photo styles                                                                      */
-/* --------------------------------------------------------------------------------- */
-
 .csfeedcontainer .feeditemusericon,
 .csfeedcontainer .feeditemcommentphoto img {
     border: 1px solid #E94E77;
 }
-/* --------------------------------------------------------------------------------- */
-/* End Photo styles                                                                  */
-/* --------------------------------------------------------------------------------- */
-
-/* --------------------------------------------------------------------------------- */
-/* Search Ask                                                                        */
-/* --------------------------------------------------------------------------------- */
-/* START Search/Ask Form */
 #cs\3A searchAskForm.focus {
     border: 1px solid #D68189;
     background: #F4EAD5;
@@ -58,226 +28,49 @@ h1, h2, h3, h4, h5, h6 {
 }
 a.postQuestion:hover {
     color:#074884;
-    cursor:pointer;
     background-color:#c4e7f2;
-    -moz-transition:background .5s;
-    -webkit-transition:background .5s;
-    -o-transition:background .5s;
-    transition:background .5s;
-    border-radius: 2px 2px 2px 2px;
-}
-.postQuestion .closed {
-    background: url("/img/chatterservice/sticky_arrow.png") no-repeat scroll right 3px transparent;
-    height: 30px;
-    padding: 0 20px 10px 0;
-    width: 500px;
-}
-.postQuestion .open {
-    background: url("/img/chatterservice/sticky_arrow_up.png") no-repeat scroll right 3px transparent;
-    height: 30px;
-    padding: 0 20px 10px 0;
-    width: 500px;
 }
 .postBits {
-    height:50px;
-    display:block;
     border-top:1px solid #bad9dc;
-    margin: 3px 0 2px 0;
 }
 .postBits h4 {
-    margin: 10px;
     color: #789CA8;
-    font-size:1em;
-    text-align:center;
 }
 .postBits:target {
     background:yellow;
-    -webkit-animation: target-fade 3s 1;
-    -moz-animation: target-fade 3s 1;
-}
-.postBits ul {
-    margin: 5px 5px 0 5px;
-    padding-left: 0px;
-    text-align: center;
-    line-height: 0.7em;
 }
 .postBits ul li {
-    text-align:center;
-    font-weight:bold;
     border-right: 1px solid #CCCCCC;
-    margin: 0 5px 0 0;
-    padding: 0 5px 0 0;
-}
-#cs\3A searchAskButton span, #cs\3A searchAgainButton span {
-    display:block;
-    padding-top:4px;
-    padding-right:10px;
-    padding-bottom:5px;
-    padding-left:39px;
-    background:url(/img/chatterservice/icon_search.png) 1px 1px no-repeat;
-}
-#cs\3A searchAskContainer h3 {
-    color: black;
-}
-#cs\3A searchAskContainer h3 span {
-    font-weight:normal;
-}
-#cs\3A searchAskContainer .type {
-    border: none;
-    background: none;
-    -webkit-box-shadow: none;
-    -moz-box-shadow: none;
-    box-shadow: none;
-}
-#cs\3A searchAskContainer .type li {
-    margin-left:-5px;
-    width:470px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 #cs\3A searchAskContainer .current {
     background-color:#CFEEF8;
 }
-.scroll-pane {
-    overflow:hidden;
-}
-
-/* START Search Step 2 */
-#cs\3A searchAskContainer ul .col {
-    display:inline-block;
-    width:231px;
-    position:relative;
-    border:none;
-}
-#cs\3A searchAskContainer label {
-    width:231px;
-    margin:0 0 5px;
-}
 #cs\3A searchAskContainer .radio label {
-    margin:0;
     color:#eb8808;
 }
 #cs\3A searchAskContainer .radio label span {
     color:#222;
 }
-#cs\3A searchAskContainer select {
-    width:180px;
-    margin:0 0 5px;
-}
-strong.note {
-    font-size:1em;
-}
-
-/* END Search Step 2 */
-
-/* START Search Notification */
 .qn div {
-    margin:8px 0 0;
     border-top:1px solid #84ACD6;
-    padding:8px 0 0;
 }
-.qn div.bump {
-    padding-left:100px;
-    background:url(/img/chatterservice/megaphone.png) 0 5px no-repeat;
-    text-align:right;
-}
-.qn p, .qn h3 {
-    margin:0 0 5px;
-    text-align:left;
-}
-.qn p {
-    margin-bottom:15px;
-}
-.qn a {
-    margin:0;
-    margin-left:10px;
-}
-.close, .reset, .qn_dismiss, .dismiss {
-    display:block;
-    width:23px;
-    height:23px;
-    position:absolute;
-    top:-10px;
-    right:-10px;
-    outline:none;
-    background:url(/img/chatterservice/icon_close.png) no-repeat;
-    text-indent:-9999px;
-}
-.reset {
-    display:none;
-    top:6px;
-    right:6px;
-    background:url(/img/chatterservice/icon_reset.png) no-repeat;
-}
-.dismiss {
-    background:url(/img/chatterservice/icon_reset.png) no-repeat;
-}
-.qn_dismiss {
-    top:0;
-    right:0;
-    background: url("/img/chatterservice/icon_sprite_serviceSupport.png") -175px -143px no-repeat;
-}
-
-/* END Search Notification */
-/* --------------------------------------------------------------------------------- */
-/* End Search Ask                                                                    */
-/* --------------------------------------------------------------------------------- */
-
-/* --------------------------------------------------------------------------------- */
-/* Chatter Service Feed                                                              */
-/* --------------------------------------------------------------------------------- */
 .csfeedcontainer a {
     color: #E94E77;
 }
 .csfeedcontainer .feeditem {
-    margin:0 0 15px;
     border-bottom:1px solid #d4dadc;
-    padding:0 0 15px;
-    white-space:normal;
-    word-wrap:break-word;
-    position: relative;
-    z-index:0;
 }
 .csfeedcontainer .feeditemlast {
     border-bottom: none;
 }
-.csfeedcontainer .feeditemseparatingdot {
-    margin-right:7px;
-    margin-left:4px;
-}
-
-/*feeditem*/
-.csfeedcontainer .feeditemusericon {
-    float: left;
-}
-.csfeedcontainer .feeditemcontent {
-    min-height: 47px;
-    padding-left: 60px;
-}
 .feedcointainer .feeditemcontentlink img {
     border: medium none;
-}
-.csfeedcontainer .feeditemfooter,
-.csfeedcontainer .feedcommentfooter {
-    display:block;
-    font-size: 0.92em;
-    line-height: 18px;
-}
-.csfeedcontainer .feeditemextras {
-    position:relative;
-    z-index:0;
-    margin: 3px 0 0 0;
 }
 .csfeedcontainer .feedArrow,
 .csfeedcontainer .feeditemcomments{
     background: none;
-    padding: 0;
-    margin: 0;
 }
 .csfeedcontainer .feedcommentarrow {
-    height:5px;
-    background: url("/img/chatterservice/comment_topArrow.gif") no-repeat 10px 0;
     border-bottom:1px solid #dee4e9;
 }
 .csfeedcontainer .feeditemcomment,
@@ -292,13 +85,10 @@ strong.note {
 
 .csfeedcontainer .header {
     border-bottom:1px solid #666666;
-    padding:10px 0 5px;
     background:#fff;
 }
 .csfeedcontainer .header h3 {
-    font-weight:700;
     color:#000;
-    font-size: 1em;
 }
 .feeditemcommentbody .bestPlaceHolder {
     color:#4fa525;
@@ -314,10 +104,6 @@ strong.note {
 }
 .csfeedcontainer .feeditemcommentplaceholder input {
     border:1px solid #C0D0D0;
-    background:transparent url("/img/chatterservice/textfield_bg80opacity.png") repeat-x scroll center top;
-}
-.csfeedcontainer .feeditemcommenttext textarea.foobar {
-    background:#fff url("/img/chatterservice/textfield_bg80opacity.png") repeat-x scroll center top;
 }
  .csfeedcontainer .singlefeeditemheader .thisupdatespan {
      color:#222;
@@ -325,12 +111,6 @@ strong.note {
  }
  .csfeedcontainer .singlefeeditemheader a {
      color:#015ba7;
- }
- .csfeedcontainer .singlefeeditemheader .thisupdatespanarrowimage_ltr {
-     background:url("/img/chatterservice/divider.png") 0 2px no-repeat;
- }
- .csfeedcontainer .singlefeeditemheader .thisupdatespanarrowimage_rtl {
-     background:url("/img/chatterservice/divider_rtl.png") 0 2px no-repeat;
  }
 .csfeedcontainer .feeditemtimestamp,
 .csfeedcontainer .feeditemclientinfo,
@@ -359,11 +139,6 @@ body .bPageTitle .secondaryPalette span.statusContainer a.feedMessageLinkFont  {
 }
 .csfeedcontainer .csactionslink {
     border: 1px solid #9B9B9B;
-    background: #FFF url("/img/chatterservice/icon_sprite_serviceSupport.png") -87px -178px no-repeat;
-}
-.csfeedcontainer .csdisableddelete,
-.csfeedcontainer .cxdeletelink {
-    background: transparent url("/img/chatterservice/icon_sprite_serviceSupport.png") -150px -151px no-repeat;
 }
 .csfeedcontainer .csactionitem a:hover {
     background-color: #CFEEF8;
@@ -378,10 +153,6 @@ body .bPageTitle .secondaryPalette span.statusContainer a.feedMessageLinkFont  {
 .csfeedcontainer .csdeleted {
     background-color: #E2F5D4;
 }
-.csfeedcontainer .csdeletedicon {
-    background: transparent url("/img/chatterservice/icon_sprite_serviceSupport.png") -153px -2px no-repeat;
-}
-
 /* Shared */
 .publishercontainer div.publishertextareaerror,
 .csfeedcontainer div.feeditemcommentnew div.newcommenttextareaerror {
@@ -424,16 +195,12 @@ a.action:hover {
 .button, .btn, .togglePill a, .breadCrumbs span, .breadCrumbs .last span {
     border:1px solid #B5B5B5;
     border-bottom-color:#7F7F7F;
-    background:#fff url("/img/chatterservice/btn_lrg_sprite_x.gif") repeat-x;
     color:#222;
 }
 .togglePill .selected a, .togglePill .selected a:hover, .breadCrumbs .current span, .breadCrumbs .current a:hover span {
     border-color: #B5B5B5;
     border-bottom-color:#7F7F7F;
     background: #E94E77;
-}
-.breadCrumbs a, .breadCrumbs a:hover {
-    background:url(/img/chatterservice/breadcrumb_tip.png) right 0 no-repeat;
 }
 .breadCrumbs a:hover {
     background-position: right bottom;
@@ -442,7 +209,6 @@ a.action:hover {
     background:none;
 }
 .sectionHeader {
-    background: url("/img/chatterservice/article_arrow.png") no-repeat scroll 9px -36px #F9F9F9;
     border-color: #CCCCCC #CCCCCC #868686;
 }
 .fieldHeader {
@@ -465,12 +231,6 @@ a.action:hover {
 .usericon img {
     border:1px solid #FFFFFF;   
 }
-#cs\3A profile .usericon a.csEditPhoto, #cs\3A profile .usericon a.csEditPhoto span {
-    background:url("/img/s.gif");
-}
-#cs\3A profile .usericon a.csEditPhoto span {
-    background:white url("/img/chatterservice/icon_pencil.png") no-repeat;
-}
 .csCustomerSupportUserIcon {
     border-color: #FCA000;
     -webkit-box-shadow: 0 0 5px 1px #FCA000;
@@ -488,11 +248,7 @@ a.action:hover {
     border: 1px solid #f8e38e;
     background-color: #fff;
 }
-.csAlert, .notice {
-    background-image:url("/img/chatterservice/warning16.png");
-}
 .csInfo {
-    background-image:url("/img/chatterservice/info16.png");
     border: 1px solid #bee6ff;
     background-color: #f5fcff;
 }
@@ -503,7 +259,6 @@ a.action:hover {
 }
 .csSuccess {
     border-color:#b2eec7;
-    background:#f0fff4 url("/img/chatterservice/icon_success.png") 5px 5px no-repeat;
 }
 #cs\3A theFeed .waitingSearchDiv .waitingHolder {
     background-color: white;
@@ -528,12 +283,8 @@ a.action:hover {
 .col .required span {
     color:#ac0808;
 }
-.prompt .dismiss {
-    background: url("/img/chatterservice/icon_sprite_serviceSupport.png") -150px -116px no-repeat;
-}
 .prompt {
     border:2px solid #fff;
-    background:#FFE5A7 url("/img/chatter/bg_tour.png") repeat-x;
     -webkit-box-shadow: 0 2px 5px #acacac;
     -moz-box-shadow: 0 2px 5px #acacac;
     box-shadow: 0 2px 5px #acacac;
@@ -560,24 +311,6 @@ a.action:hover {
     border:1px solid #ccc;
     border-top-color:#8f8f8f;
     border-left-color:#8f8f8f;
-}
-.dialogClose, .dialogCloseOn {
-    background: transparent url('/img/alohaSkin/closeX.png');
-}
-.personalSetupOverlay .topLeft, .overlayDialog .topLeft {
-    background: url('/img/alohaSkin/overlayTopLft.png') left top no-repeat;
-}
-.personalSetupOverlay .topRight, .overlayDialog .topRight {
-    background: url('/img/alohaSkin/overlay_crns.png') right top no-repeat;
-}
-.personalSetupOverlay .middle, .overlayDialog .middle {
-    background: white url('/img/alohaSkin/overlay_crns.png') left -240px repeat-x;
-}
-.personalSetupOverlay .bottomRight, .overlayDialog .bottomRight {
-    background: url('/img/alohaSkin/overlay_crns.png') right -235px no-repeat;
-}
-.personalSetupOverlay .bottomLeft, .overlayDialog .bottomLeft {
-    background: url('/img/alohaSkin/overlayBtmLft.png') left bottom no-repeat;
 }
 .popUpContent {
     -webkit-box-shadow: 0 0 4px #aaa;
@@ -609,29 +342,12 @@ a.action:hover {
 .feedprivatequestion .privatenotice {
     border-bottom:none;
 }
-.feedprivatequestion .feeditemcontent {
-    border-top:none;
-    background-image:url("/img/chatterservice/private_divider_x.png");
-}
 .csfeedcontainer .feedprivateconversation .feeditemcommentplaceholder,
 .csfeedcontainer .feedprivateconversation .feeditemcomment {
     background:none;
 }
 .feedprivateconversation .privatenotice, .feedprivatequestion .privatenotice, .csPrivateConversation .showmorecommentscontainer a {
-    background:#FBF7E9 url("/img/chatterservice/icon_lock.png") 7px 5px no-repeat;
     color: #D2791A;
-}
-#cs\3A supportBubble .csTip {
-    background:url("/img/chatterservice/tourArrows.png") -11px -86px no-repeat;
-}
-#cs\3A footer {
-    background: url("/img/chatterservice/footer_bg.png") bottom right no-repeat;
-}
-.csMini .threecolumn {
-    background-image:url("/img/chatterservice/content_short_y.png");
-}
-.csMini #cs\3A footer {
-    background-image: url("/img/chatterservice/footer_bg_short.png");
 }
 .csreputationcontent {
     box-shadow: -2px 0 5px #acacac;
@@ -650,7 +366,4 @@ a.action:hover {
 }
 .csreputationcon .csreputationlabel {
     color: #7C8B96;
-}
-.csreputationcon .csreputationarrow {
-    background: url("/img/chatterservice/btnArrow_sprite.png") 0 -278px no-repeat;
 }
