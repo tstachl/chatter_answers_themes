@@ -1,0 +1,202 @@
+html { overflow: hidden; }
+body { width: 810px; margin: 0 auto; background: white; }
+
+.leftContent,
+.mainContent { border-top: 1px solid #EFEFEF; }
+
+html body .csMini .threecolumn a, 
+html body .csMini .threecolumn a:hover,
+html body .csMini .threecolumn a:visited { color: #5B74A8; }
+
+.leftContent .feedcriterialinks li.selected a,
+#cs\:profile li.selected a,
+.leftContent .feedcriterialinks li.selected a:hover,
+#cs\:profile li.selected a:hover,
+.leftContent .feedcriterialinks li.selected a:visited,
+#cs\:profile li.selected a:visited {
+  background-color: #5B74A8;
+  color: white;
+}
+
+.leftContent li.selected a,
+.leftContent li.selected a:hover,
+.leftContent li.selected a:visited {
+	background-color: #d8dfea;
+	font-weight: 700;
+  color: #5B74A8;
+}
+
+.csMini #cs\:supportBubble,
+.togglePill, .breadCrumbs,
+#cs\:footer, #rightContent { display: none; }
+
+.csMini .threecolumn { background: white; }
+#cs\:searchAskInputContainer{
+  border:1px solid #BDC7D8;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	height:16px;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+}
+
+#cs\:searchAskInput, #cs\:searchAskInputShadow {
+  font-size:13px !important;
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+  color:#777;
+}
+
+#cs\:searchAskButton, #cs\:searchAgainButton{
+	background: none;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0px 0 0px;
+	white-space: nowrap;
+	color:#FFF; 
+	-webkit-border-radius:0px;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	background-image: url("../images/fb_sprite.png");
+	background-repeat: no-repeat;
+	background-position: 0 -49px;
+	background-color: #5B74A8;
+	border-color: #29447E #29447E #1A356E;  
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+}
+
+.csfeedcontainer .feeditemcomment,
+.csfeedcontainer .feedcommentsshowmore,
+.csfeedcontainer .feeditemcommentplaceholder,
+.csfeedcontainer .feeditemaddcomment,
+.csfeedcontainer .header { border-bottom:none; }
+
+.leftContent .feedcriterialinks li img,
+.feedItemBestReplyIcon,
+.csCustomerSupportSubIcon,
+.cxfeedcomment .cxlike a,
+.cxfeedcomment .cxdislike a,
+.cxfeedcomment .cxafterlike,
+.cxfeedcomment .cxafterdislike { background:none; }
+
+.csfeedcontainer .feedcommentarrow {
+  background:none;
+  border:none;
+  background: url("../images/arrow.png") no-repeat 10px 0px !important;
+}
+
+.feeditemtimestamp a { color: gray !important; }
+
+.cxquestionheader .feeditemfirstentity,
+.cxquestionheader .feeditemtext {
+  color: #3B5998;
+  font-size: 11px;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  line-height: 1.28;
+  direction: ltr;
+}
+
+.cxquestionheader .feeditemtext { color: black; }
+.feeditemfooter { margin-bottom: 0px !important; }
+
+.cxnewcommenttext,
+.foobar,
+.cxiswired {
+  border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;
+  border-top: none;
+  border:1px solid #BDC7D8;
+}
+
+.cxnewpublicreply {
+  background-image: url("../images/fb_sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0 -49px;
+  background-color: #5B74A8;
+  border-color: #29447E #29447E #1A356E;
+  border-width: 1px;
+  border-radius: 0px !important;
+  -webkit-border-radius: 0px !important;  
+  color: #FFF;
+  cursor: pointer;
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 16px !important;
+  white-space: nowrap;    
+}
+
+.csfeedcontainer .feeditemcommenttext textarea.foobar { background: #FFF; }
+
+.cxcommentplaceholderaction{
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+}
+
+.csfeedcontainer .feeditemcomment,
+.csfeedcontainer .showmorecommentscontainer a,
+.feeditemcommentplaceholder, .cxcommentplaceholder {
+  background-color: #EDEFF4 !important;
+  border-bottom:1px solid #D2D9E7;
+}
+
+.cxcommentplaceholderaction {
+  border: solid #BDC7D8 1px !important;
+  -webkit-border-radius: 0px;
+}
+
+.csfeedcontainer .feeditemcommentbody .feedText .feedcommenttext {
+  font-weight: normal;
+  color: #333333;
+  direction: ltr;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+  font-size: 11px;
+  line-height: 1.28;
+  text-align: left;
+}
+
+.feedText .feedcommentuser{
+  font-weight: bold;
+  color: #3B5998;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 11px !important;
+  font-family: "lucida grande",tahoma,verdana,arial,sans-serif;    
+  line-height:1.28;
+}
+
+.cxlikelink{
+  background-image: url("../images/like.png") !important;
+  background-repeat: no-repeat;
+}
+
+.cxdislikelink{
+  background-image:url("../images/dislike.png") !important;
+  background-repeat: no-repeat;
+}
+
+.cxfeedcomment .cxdislike a:hover,
+.cxfeedcomment .cxlike a:focus { background-position: 0 0px; }
+
+.feeditemextras .feeditemfooter .cxafterlike { background-image: url("../images/like.png") !important; }
+.feeditemextras .feeditemfooter .cxafterdislike { background-image: url("../images/dislike.png") !important; }
+
+.feeditemtimestamp {
+  color:gray !important;
+  cursor: pointer;
+  font-weight:normal;
+  font-size:11px !important;
+  line-height:1.28 !important;
+  font-family:"lucida grande",tahoma,verdana,arial,sans-serif !important;
+}
+
+.first { border-top:none !important; }
