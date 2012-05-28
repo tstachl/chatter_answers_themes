@@ -72,6 +72,14 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	-moz-box-shadow:none;
 }
 
+#cs\:signup_button {
+	display: block;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+	width: 178px;
+}
+
 .csfeedcontainer .feeditemcomment,
 .csfeedcontainer .feedcommentsshowmore,
 .csfeedcontainer .feeditemcommentplaceholder,
