@@ -40,10 +40,6 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	border-radius:0px;
 	-moz-border-radius:0px;
 	-webkit-border-radius:0px;
-  width: 320px;
-}
-#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskInputContainer input {
-  width: 320px;
 }
 
 #cs\:searchAskInput, #cs\:searchAskInputShadow {
