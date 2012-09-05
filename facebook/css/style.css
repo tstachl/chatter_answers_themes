@@ -42,6 +42,9 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	-webkit-border-radius:0px;
   width: 320px;
 }
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskInputContainer input {
+  width: 320px;
+}
 
 #cs\:searchAskInput, #cs\:searchAskInputShadow {
   font-size:13px !important;
@@ -49,7 +52,10 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
   color:#777;
 }
 
-#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton, #cs\:searchAskForm.tbsearchAskForm #cs\:searchAgainButton, #cs\:searchAgainButton, #cs\:signup_button {
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton,
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAgainButton,
+#cs\:searchAgainButton, #cs\:signup_button,
+#cs\:searchResults .cxsearchResultPanel .cxSearchOrPost .button {
   background: none;
   border: 0;
   cursor: pointer;
@@ -81,13 +87,14 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	background-repeat: no-repeat;
 	background-position: 0 -49px;
 	background-color: #5B74A8;
-	border-color: #29447E #29447E #1A356E;  
+	border-color: #29447E #29447E #1A356E;
 }
 
 #cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton span {
   height: auto;
   width: auto;
   padding-left: 30px;
+  background-position: left center;
 }
 
 #cs\:signup_button {
@@ -96,6 +103,10 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	padding-bottom: 5px;
 	margin-bottom: 5px;
 	width: 178px;
+}
+
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskContainer .cxsearchResultPanel {
+  border-color: #29447E #29447E #1A356E;
 }
 
 .csfeedcontainer .feeditemcomment,
