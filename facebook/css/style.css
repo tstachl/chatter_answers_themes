@@ -47,7 +47,9 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
   color:#777;
 }
 
-#cs\:searchAskButton, #cs\:searchAgainButton, #cs\:signup_button {
+
+
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton, #cs\:searchAskForm.tbsearchAskForm #cs\:searchAgainButton, #cs\:searchAgainButton, #cs\:signup_button {
 	background: none;
 	border: 0;
 	cursor: pointer;
