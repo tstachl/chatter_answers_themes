@@ -74,6 +74,20 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	-moz-box-shadow:none;
 }
 
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton:hover, 
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAgainButton:hover {
+	background-image: url("../images/fb_sprite.png");
+	background-repeat: no-repeat;
+	background-position: 0 -49px;
+	background-color: #5B74A8;
+	border-color: #29447E #29447E #1A356E;  
+}
+
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton span {
+	color: transparent;
+	background-position: center center;
+}
+
 #cs\:signup_button {
 	display: block;
 	padding-top: 4px;
