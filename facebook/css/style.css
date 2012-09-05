@@ -32,7 +32,7 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 #cs\:footer, #rightContent { display: none; }
 
 .csMini .threecolumn { background: white; }
-#cs\:searchAskInputContainer{
+#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskInputContainer {
   border:1px solid #BDC7D8;
 	box-shadow:none;
 	-webkit-box-shadow:none;
@@ -40,6 +40,7 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	border-radius:0px;
 	-moz-border-radius:0px;
 	-webkit-border-radius:0px;
+  width: 320px;
 }
 
 #cs\:searchAskInput, #cs\:searchAskInputShadow {
@@ -48,31 +49,30 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
   color:#777;
 }
 
-
-
 #cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton, #cs\:searchAskForm.tbsearchAskForm #cs\:searchAgainButton, #cs\:searchAgainButton, #cs\:signup_button {
-	background: none;
-	border: 0;
-	cursor: pointer;
-	display: inline-block;
-	font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
-	font-size: 11px;
-	font-weight: bold;
-	margin: 0;
-	padding: 0px 0 0px;
-	white-space: nowrap;
-	color:#FFF; 
-	-webkit-border-radius:0px;
-	border-radius:0px;
-	-moz-border-radius:0px;
-	background-image: url("../images/fb_sprite.png");
-	background-repeat: no-repeat;
-	background-position: 0 -49px;
-	background-color: #5B74A8;
-	border-color: #29447E #29447E #1A356E;  
-	box-shadow:none;
-	-webkit-box-shadow:none;
-	-moz-box-shadow:none;
+  background: none;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Lucida Grande', Tahoma, Verdana, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  margin-top: 2px;
+  padding: 3px 0;
+  white-space: nowrap;
+  color: white;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  -moz-border-radius: 0px;
+  background-image: url("../images/fb_sprite.png");
+  background-repeat: no-repeat;
+  background-position: 0 -49px;
+  background-color: #5B74A8;
+  border-color: #29447E #29447E #1A356E;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  position: initial;
 }
 
 #cs\:searchAskForm.tbsearchAskForm a#cs\:searchAskButton:hover, 
@@ -85,8 +85,9 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 }
 
 #cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton span {
-	color: transparent;
-	background-position: center center;
+  height: auto;
+  width: auto;
+  padding-left: 30px;
 }
 
 #cs\:signup_button {
