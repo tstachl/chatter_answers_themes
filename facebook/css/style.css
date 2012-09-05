@@ -74,8 +74,8 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 	-moz-box-shadow:none;
 }
 
-#cs\:searchAskForm.tbsearchAskForm #cs\:searchAskButton:hover, 
-#cs\:searchAskForm.tbsearchAskForm #cs\:searchAgainButton:hover {
+#cs\:searchAskForm.tbsearchAskForm a#cs\:searchAskButton:hover, 
+#cs\:searchAskForm.tbsearchAskForm a#cs\:searchAgainButton:hover {
 	background-image: url("../images/fb_sprite.png");
 	background-repeat: no-repeat;
 	background-position: 0 -49px;
