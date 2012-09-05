@@ -23,7 +23,8 @@ html body .csMini .threecolumn a:visited { color: #5B74A8; }
 .leftContent li.selected a:visited {
 	background-color: #d8dfea;
 	font-weight: 700;
-  color: #5B74A8;
+	color: #5B74A8;
+  font-size: 1em;
 }
 
 .csMini #cs\:supportBubble,
